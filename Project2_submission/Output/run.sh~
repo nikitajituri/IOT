@@ -1,0 +1,11 @@
+gnome-terminal -e "bash -c \"./gatewaysh.sh Files/GatewayConfigurationFile.txt GatewayOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./backendsh.sh Files/BackendConfigurationFile.txt PersistentStorage.txt; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./doorsh.sh  Files/DoorConfigurationFile.txt DoorInput.txt DoorOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./keychainsh.sh Files/KeychainConfigurationFile.txt KeychainInput.txt KeychainOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./motionsh.sh Files/MotionConfigurationFile.txt MotionInput.txt MotionOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./devicesh.sh Files/DeviceConfigurationFile.txt SecurityDeviceOutput.log; exec bash\""

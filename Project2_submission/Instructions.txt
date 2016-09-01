@@ -1,0 +1,12 @@
+Step 1: Open terminal and navigate to the src folder i.e. Project2_submission
+Step 2: Command to compile Gateway: gcc src/util.c src/gateway.c -lpthread -o gateway
+Step 3: Command to compile Backend: gcc src/util.c src/backend.c -lpthread -o backend
+Step 4: Command to compile Device: gcc src/util.c src/device.c -lpthread -o device 
+Step 5: Command to compile Sensor: gcc src/util.c src/sensor.c -lpthread -o sensor
+Step 6: Command to run Gateway: sh gatewaysh.sh
+Step 7: Command to run Backend: sh backendsh.sh
+Step 8: Command to run Device: sh devicesh.sh
+Step 9: Command to run Door: sh doorsh.sh
+Step 10: Command to run Motion Sensor: sh motionsh.sh
+Step 11: Command to run Keychain: sh keychainsh.sh
+

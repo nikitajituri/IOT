@@ -1,0 +1,33 @@
+Registered New Device :DEVICE
+Switch : ON : DEVICE
+Registered New Device :BACKEND
+Switch : ON : BACKEND
+Registered New Device :DEVICE
+Switch : ON : DEVICE
+Registered New Device :DOOR
+Switch : ON : DOOR
+Registered New Device :MOTION
+Switch : ON : MOTION
+Registered New Device :KEYCHAIN
+Switch : ON : KEYCHAIN
+User entered house System HOME MODE
+ALARM : Intruder in house
+User just left from house AWAY MODE System
+Switch : ON : DEVICE
+User entered house System HOME MODE
+ALARM : Intruder in house
+User just left from house AWAY MODE System
+User just left from house AWAY MODE System
+User is inside the house HOME MODE
+User just left from house AWAY MODE System
+User is inside the house HOME MODE
+User just left from house AWAY MODE System
+User entered house System HOME MODE
+ALARM : Intruder in house
+User is inside the house HOME MODE
+User just left from house AWAY MODE System
+User just left from house AWAY MODE System
+User entered house System HOME MODE
+ALARM : Intruder in house
+User is inside the house HOME MODE
+User just left from house AWAY MODE System

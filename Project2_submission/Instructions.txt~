@@ -1,0 +1,12 @@
+Step 1: Open terminal and navigate to the src folder i.e. Project2_submission
+Step 2: Command to compile Gateway: gcc src/util.c src/gateway.c -lpthread -o gateway
+Step 3: Command to compile Backend: gcc src/util.c src/backend.c -lpthread -o backend
+Step 4: Command to compile Device: gcc src/util.c src/device.c -lpthread -o device 
+Step 5: Command to compile Sensor: gcc src/util.c src/sensor.c -lpthread -o sensor
+Step 6: Command to run Gateway: ./gateway SampleConfigurationFiles/GatewayConfigurationFile.txt output/GatewayOutputFile.txt
+Step 7: Command to run Backend: ./backend SampleConfigurationFiles/BackendConfigurationFile.txt output/StorageFile.txt
+Step 8: Command to run Device: ./device SampleConfigurationFiles/DeviceConfigurationFile.txt output/DeviceOutputFile.txt
+Step 9: Command to run Door: ./sensor SampleConfigurationFiles/DoorConfigurationFile.txt SampleConfigurationFiles/DoorInputFile.txt output/DoorOutputFile.txt
+Step 10: Command to run Motion Sensor: ./sensor SampleConfigurationFiles/MotionConfigurationFile.txt SampleConfigurationFiles/MotionInputFile.txt output/MotionOutputFile.txt
+Step 11: Command to run Keychain: ./sensor SampleConfigurationFiles/KeychainConfigurationFile.txt SampleConfigurationFiles/KeychainInputFile.txt output/KeychainOutputFile.txt
+

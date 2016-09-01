@@ -1,0 +1,17 @@
+
+EXTRA INFORMATION : 
+To directly compile all the files 
+Open terminal navigate to Project2_submission
+and run sh compile.sh
+
+1. By backend we mean the database.
+
+2. The input files are placed in SampleConfigurationFiles.
+
+3. We have implemented Lamports clock.
+
+4. SampleConfigurationFiles has been renamed to Files.
+ 
+
+	
+
