@@ -1,0 +1,37 @@
+Steps to execute :
+
+1) Open three terminals and navigate to folder Project1_Submission.
+
+2) On the first terminal 
+	a. run the command ./run.sh which compiles all the files(server.c,device.c,sensor.c).
+   	b. Run ./server SampleInput/GatewayConfiguration.txt
+
+3) On Second Terminal run Device
+	a. Run ./device SampleInput/DeviceConfigurationFile_1.txt
+
+4) On third Terminal run sensor
+	a. Run ./sensor SampleInput/SensorConfigurationFile_1.txt SampleInput/SensorInputFile_1.txt
+
+
+Note : To simulate the above things for 1 gateway, 2 devices, 4 sensors below are the instructions to be executed in each of the terminals:
+
+1) On the first terminal
+	a. run the command ./run.sh which compiles all the files(server.c,device.c,sensor.c).
+   	b. Run ./server SampleInput/GatewayConfiguration_1.txt
+
+2)Run each of these on a new Terminal
+	Run Devices : 
+	c. Run ./device SampleInput/DeviceConfigurationFile_1.txt
+	d. Run ./device SampleInput/DeviceConfigurationFile_2.txt
+
+	Note* : c is connected to AreaId : 1
+	        d is connected to AreaID : 2
+
+	Run Sensors:
+	e. Run ./sensor SampleInput/SensorConfigurationFile_1.txt SampleInput/SensorInputFile_1.txt
+	f. Run ./sensor SampleInput/SensorConfigurationFile_2.txt SampleInput/SensorInputFile_2.txt
+	g. Run ./sensor SampleInput/SensorConfigurationFile_3.txt SampleInput/SensorInputFile_3.txt
+	h. Run ./sensor SampleInput/SensorConfigurationFile_4.txt SampleInput/SensorInputFile_4.txt
+
+	Note* : e,f are connected to AreaID : 1
+		g,h are connected to AreaID : 2

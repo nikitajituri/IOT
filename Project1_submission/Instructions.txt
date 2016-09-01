@@ -1,0 +1,9 @@
+Step 1: Open terminal and navigate to the src folder i.e. Project1_submission
+Step 2: Command to compile Gateway: gcc src/server.c -lpthread -o server
+Step 3: Command to compile Sensor: gcc src/sensor.c -lpthread -o sensor
+Step 4: Command to compile Smart Device: gcc src/device.c -lpthread -o device
+Step 5: Command to run Gateway: ./server SampleInput/GatewayConfiguration.txt
+Step 6: Command to run Sensor: ./sensor SampleInput/SensorConfigurationFile_1.txt SampleInput/SensorInputFile_1.txt
+Step 7: Command to run Smart Device: ./device SampleInput/DeviceConfigurationFile_1.txt
+
+

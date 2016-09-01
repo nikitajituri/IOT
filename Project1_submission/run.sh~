@@ -1,0 +1,3 @@
+gcc server.c -lpthread -o server
+gcc sensor.c -lpthread -o sensor
+gcc device.c -lpthread -o device 
