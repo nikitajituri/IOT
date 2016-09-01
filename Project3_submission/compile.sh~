@@ -1,0 +1,7 @@
+gcc -c src/util.c -o output/util
+gcc src/util.c src/gateway.c -lpthread -o output/gateway
+gcc src/util.c src/sensor.c -lpthread -o output/sensor
+gcc src/util.c src/device.c -lpthread -o output/device 
+gcc src/util.c src/backend.c -lpthread -o output/backend
+
+

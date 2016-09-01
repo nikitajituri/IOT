@@ -1,0 +1,15 @@
+gnome-terminal -e "bash -c \"./gateway ConfigFiles/PrimaryGatewayConfig.txt PrimaryGatewayOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./gateway ConfigFiles/SecondaryGatewayConfig.txt SecondaryGatewayOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./backend ConfigFiles/PrimaryBackendConfig.txt PrimaryBackendOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./backend ConfigFiles/SecondaryBackendConfig.txt SecondaryBackendOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./sensor ConfigFiles/MotionConfig.txt InputFiles/MotionInput.txt MotionOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./device ConfigFiles/SecurityDeviceConfig.txt SecurityDeviceOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./sensor ConfigFiles/DoorConfig.txt InputFiles/DoorInput.txt DoorOutput.log; exec bash\""
+sleep 4
+gnome-terminal -e "bash -c \"./sensor ConfigFiles/KeychainConfig.txt InputFiles/KeychainInput.txt KeychainOutput.log; exec bash\""

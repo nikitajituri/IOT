@@ -1,0 +1,1 @@
+./sensor ConfigFiles/DoorConfigurationFile.txt Files/DoorInputFile.txt Output/DoorOutputFile.txt
